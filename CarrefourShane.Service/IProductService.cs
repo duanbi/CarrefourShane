@@ -9,5 +9,7 @@ namespace CarrefourShane.Service
     {
 
         ProductInfoEntity GetProductInfo(int productId);
+
+        List<ProductInfoEntity> GetProductList();
     }
 }

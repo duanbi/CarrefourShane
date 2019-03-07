@@ -17,5 +17,17 @@ namespace CarrefourShane.Service
                 ProductNumber = "1001001100"
             };
         }
+
+        public List<ProductInfoEntity> GetProductList()
+        {
+            var result = new List<ProductInfoEntity>();
+            result.Add(new ProductInfoEntity()
+            {
+                ProductId = 1,
+                ProductName = "测试",
+                ProductNumber = "1001001100"
+            });
+            return result;
+        }
     }
 }

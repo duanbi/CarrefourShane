@@ -24,5 +24,11 @@ namespace CarrefourShane.Controllers
         {
             return _productService.GetProductInfo(productId);
         }
+
+        [Route("productlist")]
+        public List<ProductInfoEntity> GetProductList()
+        {
+            return _productService.GetProductInfo(productId);
+        }
     }
 }
