@@ -5,11 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Controllers\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarrefourShane.Entities\CarrefourShane.Entities.csproj" />
+    <ProjectReference Include="..\CarrefourShane.Service\CarrefourShane.Service.csproj" />
   </ItemGroup>
 
 </Project>
