@@ -28,7 +28,7 @@ namespace CarrefourShane.Controllers
         [Route("productlist")]
         public List<ProductInfoEntity> GetProductList()
         {
-            return _productService.GetProductInfo(productId);
+            return _productService.GetProductList();
         }
     }
 }
