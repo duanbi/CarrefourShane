@@ -10,6 +10,7 @@ namespace CarrefourShane.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.Title = "冲突制造";
             return View();
         }
     }
