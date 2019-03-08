@@ -15,6 +15,7 @@ namespace CarrefourShane.Controllers
         private ICustomerService _customerService;
         public CustomerController(ICustomerService customerService)
         {
+            var str = "冲突制造1";
             _customerService = customerService;
         }
 
